@@ -1,6 +1,0 @@
-User-agent: *
-Disallow: 
-Disallow: /oops.html
-Disallow: 403.html
-
-Sitemap: https://hwtw.cc/sitemap.xml
