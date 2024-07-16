@@ -40,10 +40,17 @@
     <script>
     document.addEventListener('DOMContentLoaded', function() {
         const urlParam = new URL(window.location.href).searchParams.get("i");
+        const dirParam = new URL(window.location.href).searchParams.get("d")
         const imageViewer = document.getElementById('imageviewer');
         if (urlParam) {
-            imageViewer.src = "https://files.yuanh.xyz/images/photoslib/" +urlParam + ".JPG";
-            imageViewer.alt = "Image Viewer";
+            if (dirParam) {
+                imageViewer.src = "https://files.yuanh.xyz/images/photoslib/" + dirParam + "/" +urlParam + ".JPG";
+                imageViewer.alt = "Image from" + dirParam;
+            }
+            else {
+                imageViewer.src = "https://files.yuanh.xyz/images/photoslib/" +urlParam + ".JPG";
+                imageViewer.alt = "Image Viewer";
+            }
         } else {
             document.getElementById('Display').innerHTML = "No image specified";
         }

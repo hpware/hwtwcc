@@ -9,7 +9,7 @@
     </head>
     <body>
         <main>
-        <h1><a class="title" href="/">Howard's Website</a></h1>
+        <h1><a class="title" href="/">Howard's Photo Library</a></h1>
 	    <h2>Photo Library</h2>
         <section id="photos">
         <div class="photolib">
