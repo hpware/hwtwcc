@@ -16,7 +16,7 @@
         <br>
         <br>
             <a href="/">Home</a>&nbsp;&nbsp;<a href="https://hpware.hwtw.cc">Hpware</a>&nbsp;&nbsp;<a href="https://youtube.com/@hwtw">YouTube</a>&nbsp;&nbsp;<a href="https://github.com/hpware">GitHub</a>
-            <p>This website is hosted using IIS</p>
+            <p>Rebooted to Vercel</p>
             <p>&copy; 2024 Howard Wu</p>
         </footer>
 </html>

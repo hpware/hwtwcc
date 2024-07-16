@@ -33,7 +33,7 @@
         <br>
         <br>
             <a href="https://hwtw.cc">Home</a>&nbsp;&nbsp;<a href="https://hpware.hwtw.cc">Hpware</a>
-            <p>This website is hosted using IIS</p>
+            <p>Rebooted to Vercel</p>
             <p>&copy; 2024 Howard Wu</p>
         </footer>
     </body>
@@ -41,18 +41,12 @@
     document.addEventListener('DOMContentLoaded', function() {
         const urlParam = new URL(window.location.href).searchParams.get("i");
         const imageViewer = document.getElementById('imageviewer');
-        if (urlParam && urlParam.startsWith("https://")) {
-            document.getElementById('Display').innerHTML = "Invalid URL";
-    } else if (urlParam && urlParam.startsWith("http://")) {
-            document.getElementById('Display').innerHTML = "Invalid URL";
-    } else {
         if (urlParam) {
-            imageViewer.src = "lib/" +urlParam + ".JPG";
+            imageViewer.src = "https://files.yuanh.xyz/images/photoslib/" +urlParam + ".JPG";
             imageViewer.alt = "Image Viewer";
         } else {
             document.getElementById('Display').innerHTML = "No image specified";
         }
-    }
     });
     </script>
 </html>

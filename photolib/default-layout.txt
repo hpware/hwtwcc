@@ -1,7 +1,7 @@
 <!doctype html>
 <html>X
     <head>
-        <title>Photo Library - Howard's Website</title>
+        <title>[TITLE] - Howard's Photo Library</title>
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1" name="viewport">
         <link rel="stylesheet" href="/style.css">
