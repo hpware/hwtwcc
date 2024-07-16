@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Photo Library Viewer - Howard's Website</title>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link rel="stylesheet" href="/style.css">
+		<link href="/favicon.ico" type="image/x-icon" />
+    </head>
+    <style>
+            img {
+        width: 70%;
+        height: 70%;
+        margin: 0 auto 2rem;
+        transition: filter 300ms;
+
+    }
+    img:hover {
+        filter: drop-shadow(0 0 2em #4c4c4caa);
+    }
+    </style>
+    <body>
+        <main>
+        <h1><a class="title" href="/">Howard's Blog</a></h1>
+	    <h2>Photo Viewer</h2>
+        <p id="Display" style="color: red;"></p>
+        <img id="imageviewer" src="" alt="Image Viewer">
+        <br>
+        <button style="border-radius:100px;" onclick="window.location.href='/photolib.html'">Back</button>
+        
+        </main>
+        <footer>
+        <br>
+        <br>
+            <a href="https://hwtw.cc">Home</a>&nbsp;&nbsp;<a href="https://hpware.hwtw.cc">Hpware</a>
+            <p>This website is hosted using IIS</p>
+            <p>&copy; 2024 Howard Wu</p>
+        </footer>
+    </body>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const urlParam = new URL(window.location.href).searchParams.get("i");
+        const imageViewer = document.getElementById('imageviewer');
+        if (urlParam && urlParam.startsWith("https://")) {
+            document.getElementById('Display').innerHTML = "Invalid URL";
+    } else if (urlParam && urlParam.startsWith("http://")) {
+            document.getElementById('Display').innerHTML = "Invalid URL";
+    } else {
+        if (urlParam) {
+            imageViewer.src = "lib/" +urlParam + ".JPG";
+            imageViewer.alt = "Image Viewer";
+        } else {
+            document.getElementById('Display').innerHTML = "No image specified";
+        }
+    }
+    });
+    </script>
+</html>

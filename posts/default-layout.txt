@@ -14,11 +14,13 @@
           </svg></a></h1>
 	    <h2>Post Title</h2>
         <p class="blogstuff">Stuff</p>
+        </main>
         <footer>
         <br>
         <br>
             <a href="https://hwtw.cc">Home</a>&nbsp;&nbsp;<a href="https://hpware.hwtw.cc">Hpware</a>
             <p>This website is hosted using IIS</p>
             <p>&copy; 2024 Howard Wu</p>
-        </footer>
+         </footer>
+        </body>
 </html>

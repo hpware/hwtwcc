@@ -9,18 +9,43 @@
 
 <url>
   <loc>https://hwtw.cc/</loc>
-  <lastmod>2024-07-07T14:15:30+00:00</lastmod>
+  <lastmod>2024-07-09T01:04:45+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://hwtw.cc/photolib.html</loc>
+  <lastmod>2024-07-08T04:14:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hwtw.cc/mycodingsetup.html</loc>
+  <lastmod>2024-07-07T15:05:40+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hwtw.cc/posts/2024/07/why-is-this-website-self-hosted.html</loc>
+  <lastmod>2024-07-09T01:05:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://hwtw.cc/posts/2024/07/test-post.html</loc>
-  <lastmod>2024-07-07T14:18:43+00:00</lastmod>
+  <lastmod>2024-07-08T03:43:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://hwtw.cc/posts/2024/06/%E6%A9%9F%E5%99%A8%E4%BA%BA(q)(Archive).html</loc>
-  <lastmod>2024-07-07T14:18:51+00:00</lastmod>
+  <lastmod>2024-07-08T03:43:11+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hwtw.cc/img/viewer.html?i=DSC_0619</loc>
+  <lastmod>2024-07-08T04:11:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hwtw.cc/img/viewer.html?i=DSC_0580</loc>
+  <lastmod>2024-07-08T04:11:14+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
