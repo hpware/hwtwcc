@@ -141,7 +141,5 @@ button {
   }
 
   .ccwork {
-    display: inline-block;
-    margin-left: 3px;
-    vertical-align: text-bottom;
+    size:0.8em;
   }
