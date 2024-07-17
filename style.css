@@ -139,3 +139,9 @@ button {
   button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
   }
+
+  .ccwork {
+    display: inline-block;
+    margin-left: 3px;
+    vertical-align: text-bottom;
+  }
