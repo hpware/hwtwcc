@@ -16,6 +16,12 @@ document.addEventListener('DOMContentLoaded', function() {
     if (formatParam) {
         var format = formatParam;
     }
+    if (formatParam == "ip") {
+        var format = "heic";
+    }
+    if (formatParam == "IP") {
+        var format = "HEIC";
+    }
     
     if (urlParam) {
         if (dirParam) {
@@ -32,3 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('Display').innerHTML = "No image specified";
     }
 });
+const copyright = document.getElementById('copyright');
+if (!copyright) {
+    document.getElementById('Display').innerHTML = "&copy;2024 PROTECTED CC BY 4.0 元皓";
+}
