@@ -39,6 +39,3 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 const copyright = document.getElementById('copyright');
-if (!copyright) {
-    document.getElementById('Display').innerHTML = "&copy;2024 PROTECTED CC BY 4.0 元皓";
-}
