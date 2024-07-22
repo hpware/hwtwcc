@@ -5,12 +5,16 @@
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1" name="viewport">
         <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="/mobile-style.css">
 		<link href="/favicon.ico" type="image/x-icon" />
     </head>
     <body>
+    <scirpt src="/components/lang-loading.js"></scirpt>
         <main>
         <h1><a class="title" href="/">Howard's Photo Library</a></h1>
 	    <h2>Photo Library</h2>
+      <h4 id="en-loading">It may run for a while</h4>
+      <h4 id="zh-loading">可能需要一段時間才會完成</h4>
         <section id="photos">
         <div class="photolib">
           <!--Layout  <a href="/img/viewer.html?i=[PHOTOHERE]"><img src="https://files.yuanh.xyz/images/photolib/[PHOTOHERE]" alt="[PHOTOHERE]"></a>-->
