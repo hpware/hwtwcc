@@ -148,3 +148,12 @@ button {
   br.mobile {
     display:none;
   }
+  br.loadingmobile {
+    display: none;
+  }
+
+  .photoend {
+    font-size: 0.8em;
+    color:white;
+    text-align: center;
+}

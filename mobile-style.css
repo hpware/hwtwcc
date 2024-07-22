@@ -96,3 +96,8 @@
         display: block;
     }
   }
+  @media only screen and (max-width: 693px) {
+    br.loadingmobile {
+        display: block;
+    }
+  }
