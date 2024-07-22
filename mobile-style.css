@@ -92,6 +92,9 @@
             display: block;
         }
       }
+      br.mobile {
+        display: block;
+    }
   }
 
 
