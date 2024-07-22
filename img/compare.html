@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>Photo Library Viewer - Howard's Website</title>
+        <title>Photo Comparison - Howard's Website</title>
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1" name="viewport">
         <link rel="stylesheet" href="/style.css">
@@ -22,11 +22,12 @@
     <body>
         <main>
         <h1><a class="title" href="/">Howard's Website</a></h1>
-	    <h2>Photo Viewer</h2>
+	    <h2>Photo Comparison</h2>
         <p id="Display" style="color: red;"></p>
         <img id="imageviewer" src="" alt="Image Viewer">
         <br>
-        <button style="border-radius:100px;" onclick="window.history.back()">Back</button>
+        <button style="border-radius:100px;" onclick="window.history.back()">Back</button>     
+        <p class="ccwork">This image by Howard Wu is licensed under CC BY-NC-SA 4.0 </p>   
         </main>
         <footer>
         <br>
@@ -35,8 +36,8 @@
             <br>
             <a href="https://unsplash.com/@hwtw">Unsplash</a>
             <p>Rebooted to Vercel</p>
-            <p>&copy; 2024 Howard Wu</p>
+            <p id="copyright">&copy; 2024 Howard Wu</p>
         </footer>
     </body>
-    <script src="/components/viewer.js"></script>    
+    <script src="/components/compare.js"></script>
 </html>

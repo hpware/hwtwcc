@@ -1,9 +1,11 @@
 :root {
-    --background-color-1: #161A41;
-    --background-color-2: #163A41;
+    --bacckground-color-1: #161A41;
+    --bacckground-color-2: #163A41;
+    --background-color-1:#3f3e3e;
 
 }
 body {
+    background-image: url();
     background-color: var(--background-color-1);
     color: white;
     font-family: monospace;
@@ -27,16 +29,11 @@ p {
     font-size: 1.5em;
     margin-bottom: 0;
 }
-p.aboutme {
-    font-size: 1.2em;
-    margin-bottom: 0;
-    color: #46d1e4;
-}
 footer {
     p {
     font-size: 0.9em;
     margin-bottom: 0;
-    color: #F0CD5A;
+    color: #ffffff;
     }
 
 }
@@ -70,29 +67,6 @@ div.bloglist {
         color: #70aa13;
     }
 
-}
-div.page-mysetup {
-    text-align:left;
-    align-items:left;
-    p {
-        text-align:left;
-        font-size: 0.8em;
-    }
-    a {
-        color: white;
-        text-decoration: none;
-    }
-    a:hover {
-        color: #8713aa;
-    }
-    ul {
-        text-align:left;
-        align-items:left;
-    }
-    li {
-        text-align:left;
-        font-size: 0.8em;
-    }
 }
 div.photolib {
     p {
@@ -142,4 +116,35 @@ button {
 
   .ccwork {
     size: fff0.5em;
+  }
+  div.bio {
+    button {
+        background-color:#46d1e4;
+        transition: 100ms;
+        font-size: 0.8em;
+        padding: 1em 3em;
+        margin-bottom: 0;
+        align-items: center;
+        text-align: center;
+        box-shadow: 0 14px 30px -5px rgba(0, 0, 0, .13);
+        }
+    button:hover {
+        background-color:#39a3b1;
+        border-color:#46d1e4;
+    }
+    .aboutme {
+        font-size: 1.2em;
+        margin-bottom: 0;
+        color: #46d1e4;
+    }
+    br.mobile {
+        display: none;
+    }
+    a {
+        text-decoration: none;
+    }
+
+  }
+  .error {
+    display:none;
   }

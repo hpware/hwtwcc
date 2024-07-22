@@ -1,0 +1,130 @@
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 1.5em;
+    }
+    
+    h1 {
+        font-size: 2em;
+        margin-bottom: 0;
+    }
+    
+    p {
+        font-size: 1em;
+        margin-bottom: 0;
+    }
+    footer {
+        p {
+        font-size: 0.7em;
+        margin-bottom: 0;
+        color: #ffffff;
+        }
+    
+    }
+    div.bloglist {
+        p {
+            text-align:center;
+            font-size: 1.0em;
+            margin-bottom: 0;
+        }
+    
+    }
+    div.page-mysetup {
+        text-align:left;
+        align-items:left;
+        p {
+            text-align:left;
+            font-size: 0.8em;
+        }
+        ul {
+            text-align:left;
+            align-items:left;
+        }
+        li {
+            text-align:left;
+            font-size: 0.8em;
+        }
+    }
+    div.photolib {
+        p {
+            text-align:center;
+            font-size: 0.8em;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #8713aa;
+        }
+        img {
+            width: 30%;
+            height: 30%;
+            margin: 0 auto 2rem;
+            transition: filter 300ms;
+    
+        }
+        img:hover {
+            filter: drop-shadow(0 0 2em #4c4c4caa);
+        }
+        div.img {
+            display: block;
+        }
+    }
+
+      div.bio {
+        button {
+            background-color:#46d1e4;
+            transition: 100ms;
+            font-size: 0.8em;
+            padding: 1em 3em;
+            margin-bottom: 0;
+            }
+        button:hover {
+            background-color:#39a3b1;
+            border-color:#46d1e4;
+        }
+        .aboutme {
+            font-size: 1em;
+            margin-bottom: 0;
+            color: #46d1e4;
+        }
+        br.mobile {
+            display: block;
+        }
+      }
+  }
+
+
+@media only screen and (max-width: 270px) {
+    body {
+        font-size: 0.00000001em;
+        background-color:#46d1e4;
+        color:#46d1e4;
+    }
+    
+    h1 {
+        font-size: 1.5em;
+        margin-bottom: 0;
+        color:#46d1e4;
+    }
+    
+    p {
+        font-size: 0.7em;
+        margin-bottom: 0;
+    }
+    footer {
+        p {
+        font-size: 0.7em;
+        margin-bottom: 0;
+        color: #ffffff;
+        }
+    }
+    i {
+        color:#46d1e4;
+        background-color:#46d1e4;
+    }
+    img {
+        color:#46d1e4;
+        background-color:#46d1e4;
+    }
+}
