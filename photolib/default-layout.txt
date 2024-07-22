@@ -11,6 +11,8 @@
         <main>
         <h1><a class="title" href="/">Howard's Photo Library</a></h1>
 	    <h2>Photo Library</h2>
+      <h4 id="en-loading">It may run for a while</h4>
+      <h4 id="zh-loading">可能需要一段時間才會完成</h4>
         <section id="photos">
         <div class="photolib">
           <!--Layout  <a href="/img/viewer.html?i=[PHOTOHERE]"><img src="https://files.yuanh.xyz/images/photolib/[PHOTOHERE]" alt="[PHOTOHERE]"></a>-->
