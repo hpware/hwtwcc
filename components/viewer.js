@@ -26,11 +26,13 @@ document.addEventListener('DOMContentLoaded', function() {
     if (urlParam) {
         if (dirParam) {
             imageViewer.src = "https://files.yuanh.xyz/images/photolib/" + dirParam + "/" +urlParam + "." + format;
+            download.href = "https://files.yuanh.xyz/images/photolib/" + dirParam + "/" +urlParam + "." + format;
             imageViewer.alt = "Image from" + dirParam;
             imageViewer.style.width = optSize;
         }
         else {
             imageViewer.src = "https://files.yuanh.xyz/images/photolib/" +urlParam + ".JPG";
+            download.href = "https://files.yuanh.xyz/images/photolib/" + dirParam + "/" +urlParam + "." + format;
             imageViewer.alt = "Image Viewer";
             imageViewer.style.width = optSize;
         }
