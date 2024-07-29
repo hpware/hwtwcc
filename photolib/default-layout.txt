@@ -17,7 +17,7 @@
       <h4 id="zh-loading">可能需要一段時間才會完成</h4>
         <section id="photos">
         <div class="photolib">
-          <!--Layout  <a href="/img/viewer.html?i=[PHOTOHERE]"><img src="https://files.yuanh.xyz/images/photolib/[PHOTOHERE]" alt="[PHOTOHERE]"></a>-->
+          <!--Layout  <a href="/img/viewer.html?i=[PHOTOHERE]"><img src="https://ghfiles.yuanh.xyz/images/photolib/[PHOTOHERE]" alt="[PHOTOHERE]"></a>-->
         </div>
         </section>
         </main>
