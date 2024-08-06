@@ -13,6 +13,7 @@
         <h1><a class="title" href="/">Howard's Website</a></h1>
 	    <h2>Title</h2>
         <p class="blogstuff">Stuff</p>
+        </main>
         <footer>
         <br>
         <br>
