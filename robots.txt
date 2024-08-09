@@ -38,7 +38,7 @@ User-agent: *
 Disallow: /home.html
 Disallow: /viewer.html
 Disallow: /404.html
-Disallow: 403.html
+Disallow: /403.html
 Disallow: /default-layout.txt
 Disallow: /posts/default-layout.txt
 Disallow: /photolib/default-layout.txt
