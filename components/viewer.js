@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         else {
             imageViewer.src = "https://ghfiles.yuanh.xyz/images/photolib/" +urlParam + ".JPG";
-            download.href = "https://ghfiles.yuanh.xyz/images/photolib/" + dirParam + "/" +urlParam + "." + format;
+            download.href = "https://php.hwtw.cc/github-image-download.php?f=photolib/" + dirParam + "/" +urlParam + "." + format;
             imageViewer.alt = "Image Viewer";
             imageViewer.style.width = optSize;
         }
