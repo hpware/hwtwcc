@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (urlParam) {
         if (dirParam) {
             imageViewer.src = "https://ghfiles.yuanh.xyz/images/photolib/" + dirParam + "/" +urlParam + "." + format;
-            download.href = "https://ghfiles.yuanh.xyz/images/photolib/" + dirParam + "/" +urlParam + "." + format;
+            download.href = "https://php.hwtw.cc/github-image-download.php?f=photolib/" + dirParam + "/" +urlParam + "." + format;
             imageViewer.alt = "Image from" + dirParam;
             imageViewer.style.width = optSize;
         }
