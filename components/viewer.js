@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             else if (abtestvar === "B") {
                 download.href = ""
-                download.download = urlParam + "." format;
+                download.download = urlParam + "." + format;
             }
             
 
@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             else if (abtestvar === "B") {
                 download.href = ""
-                download.download = urlParam + "." format;
+                download.download = urlParam + "." + format;
             }
         }
     } else {
