@@ -4,7 +4,6 @@ function abtestjs() {
 }
 const abtestvar = abtestjs();
 console.log(`You are ${abtestvar} tester.`);
-console.log(`If you are the B tester, you will download the html file :)`)
 document.addEventListener('DOMContentLoaded', function() {
     const urlParam = new URL(window.location.href).searchParams.get("i");
     const dirParam = new URL(window.location.href).searchParams.get("d");
