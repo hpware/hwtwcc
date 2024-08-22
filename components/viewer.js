@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
             imageViewer.style.width = optSize;
             if (abtestvar === "A") {
                 download.href = "https://php.hwtw.cc/github-image-download.php?f=photolib/" + dirParam + "/" +urlParam + "." + format;
-                download.download = 
+                download.download = ""
             }
             else if (abtestvar === "B") {
                 download.href = ""
