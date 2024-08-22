@@ -1,3 +1,9 @@
+// A/B Testing 
+function abtestjs() {
+    return Math.Random() < 0.5 ? "A" : "B";
+}
+const abtestvar = abtestjs();
+console.log('{abtestvar}');
 document.addEventListener('DOMContentLoaded', function() {
     const urlParam = new URL(window.location.href).searchParams.get("i");
     const dirParam = new URL(window.location.href).searchParams.get("d");
