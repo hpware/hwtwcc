@@ -3,7 +3,7 @@ function abtestjs() {
     return Math.random() < 0.5 ? "A" : "B";
 }
 const abtestvar = abtestjs();
-document.getElementById("aorbtesting").innerHTML = `You are ${abtestvar} tester.`
+console.log(`You are ${abtestvar} tester.`);
 document.addEventListener('DOMContentLoaded', function() {
     const urlParam = new URL(window.location.href).searchParams.get("i");
     const dirParam = new URL(window.location.href).searchParams.get("d");
