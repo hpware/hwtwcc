@@ -119,6 +119,7 @@ button {
   }
   div.bio {
     button {
+        color: black;
         background-color:#46d1e4;
         transition: 100ms;
         font-size: 0.8em;
