@@ -1,6 +1,6 @@
 // A/B Testing 
 function abtestjs() {
-    return Math.Random() < 0.5 ? "A" : "B";
+    return Math.random() < 0.5 ? "A" : "B";
 }
 const abtestvar = abtestjs();
 console.log('{abtestvar}');
