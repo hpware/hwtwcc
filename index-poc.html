@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Howard's Website POC</title>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="/mobile-style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+        <script src="/components/index.js"></script>
+    </head>
+    <style>
+        div.hide {
+            display: none;
+        }
+        div.show {
+            display: block;
+        }
+    </style>
+    <body>
+        <main>
+        <h1><a class="title" href="/">Howard Wu</a></h1>
+        <div class="nav"><a onclick="home_page()">Home</a>&nbsp;&nbsp;<a onclick="blog_page()">Blog</a>&nbsp;&nbsp;<a onclick="projects_page()">Projects</a>&nbsp;&nbsp;<a onclick="photos_page()">Photos</a>&nbsplevel&nbsp<a onclick="email_access()">Email</a></div>
+        <div id="home" class="show">
+        <div class="bio">
+            <button class="full" onclick="window.location.href='/posts/index.html'"><i class="bi bi-file-post"></i>&nbsp;Blog Posts</button>
+            <br class="mobile"><br class="mobile">
+            <button class="full" onclick="window.location.href='/photolib/index.html'"><i class="bi bi-camera"></i>&nbsp;Photo Libraries</button>
+            <br><br>
+            <button class="full" onclick="window.location.href='/projects/'"><i class="bi bi-gear"></i>&nbsp;Projects</button>
+            <br class="mobile"><br class="mobile">
+            <button class="full" onclick="window.location.href='https://github.com/hpware/php-plugins'"><i class="bi bi-filetype-php"></i>&nbsp;PHP Plugins</button>
+        </div>
+        </div>
+        <div id="photolib" class="hide">
+             <h2>Photo Libraries</h2>
+            <div class="bloglist">
+              <!--LIST <a href="../posts/[title].html">[POST TITLE] - [DATE]</a><br>-->
+              <a href="/photolib/2024/07/japan-trip.html">Japan Trip - 2024/07/19</a><br>
+              <a href="/photolib/2024/07/test.html">Test - 2024/07/10</a><br>
+          </div>
+        </div>
+        </main>
+        <footer>
+            <br><br>
+            <p>Rebooted to <a href="https://vercel.com">Vercel</a></p>
+            <p>&copy; 2024 Howard Wu</p>
+            <p style="font-size: 0.5em;">I would recommend not using Firefox to view this webpage.<br>Visit <a href="/posts/2024/08/updates-to-this-website.html#firefox-notice">Here</a> for more info.</p>
+        </footer>
+    </body>
+    <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ST0M60628R"></script>
+        <script defer src="https://analytics.yuanh.xyz/script.js" data-website-id="24b3eb40-62ce-4ef3-8263-d14543155b39"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+        gtag('config', 'G-ST0M60628R');
+        </script>
+</html>
