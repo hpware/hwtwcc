@@ -2,10 +2,13 @@ Ubuntu 24.04 + Gnome
 curl https://raw.githubusercontent.com/hpware/hpware/main/install/ubuntu-gnome.sh | bash
 
 Non Gnome Ubuntu:
-curl https://raw.githubusercontent.com/hpware/hpware/main/install/ubuntu.sh | bash
+curl -fsSL https://raw.githubusercontent.com/hpware/hpware/main/install/ubuntu.sh | bash
 
 Debian 12 + Gnome
-curl https://raw.githubusercontent.com/hpware/hpware/main/install/debian-gnome.sh | bash
+curl -fsSL https://raw.githubusercontent.com/hpware/hpware/main/install/debian-gnome.sh | bash
 
 Non Gnome Debian :
-curl https://raw.githubusercontent.com/hpware/hpware/main/install/debian.sh | bash
+curl -fsSL https://raw.githubusercontent.com/hpware/hpware/main/install/debian.sh | bash
+
+Backup PC:
+curl -fsSL https://raw.githubusercontent.com/hpware/hpware/main/install/backup.sh | bash
