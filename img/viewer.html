@@ -2,45 +2,61 @@
 <html>
     <head>
         <title>Photo Library Viewer - Howard's Website</title>
-        <meta charset="utf-8">
-        <meta content="width=device-width, initial-scale=1" name="viewport">
-        <link rel="stylesheet" href="/style.css">
-		<link href="/favicon.ico" type="image/x-icon" />
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link rel="stylesheet" href="/style.css" />
+        <link href="/favicon.ico" type="image/x-icon" />
     </head>
     <style>
-            img {
-        width: 70%;
-        height: 70%;
-        margin: 0 auto 2rem;
-        transition: filter 300ms;
-
-    }
-    img:hover {
-        filter: drop-shadow(0 0 2em #4c4c4caa);
-    }
+        img {
+            width: 70%;
+            height: 70%;
+            margin: 0 auto 2rem;
+            transition: filter 300ms;
+        }
+        img:hover {
+            filter: drop-shadow(0 0 2em #4c4c4caa);
+        }
     </style>
     <body>
         <main>
-        <h1><a class="title" href="/">Howard's Website</a></h1>
-	    <h2>Photo Viewer</h2>
-        <p id="Display" style="color: red;"></p>
-        <img id="imageviewer" src="" alt="Image Viewer">
-        <br>
-        <button style="border-radius:100px;" onclick="window.history.back()">Back</button>&nbsp;&nbsp;<a id="download" href="" download=""><button style="border-radius:100px;">Download</button></a>
-	<H6>The download feature is A/B testing.</H6>
-	<h6>View the console via F12 and refresh the page to see which tester you are.</h6>
-	<h6>NOTE: B tester may be unable to download the file.</h6>
+            <h1><a class="title" href="/">Howard's Website</a></h1>
+            <h2>Photo Viewer</h2>
+            <p id="Display" style="color: red"></p>
+            <img id="imageviewer" src="" alt="Image Viewer" />
+            <br />
+            <button
+                style="border-radius: 100px"
+                onclick="window.history.back()"
+            >
+                Back</button
+            >&nbsp;&nbsp;<a id="download" href="" download=""
+                ><button style="border-radius: 100px">Download</button></a
+            >
+            <h6>The download feature is A/B testing.</h6>
+            <h6>
+                View the console via F12 and refresh the page to see which
+                tester you are.
+            </h6>
+            <h6>NOTE: B tester may be unable to download the file.</h6>
         </main>
         <footer>
-        <br>
-        <br>
-            <a href="https://hwtw.cc">Home</a>&nbsp;&nbsp;<a href="https://hpware.hwtw.cc">Hpware</a>
-            <br>
+            <br />
+            <br />
+            <a href="https://hwtw.cc">Home</a>&nbsp;&nbsp;<a
+                href="https://hpware.hwtw.cc"
+                >Hpware</a
+            >
+            <br />
             <a href="https://unsplash.com/@hwtw">Unsplash</a>
-            <p>Rebooted to Vercel</p>
+            <p>Served with custom infra!</p>
             <p>&copy; 2024 Howard Wu</p>
         </footer>
     </body>
-    <script src="/components/viewer.js"></script>    
-    <script defer src="https://analytics.yuanh.xyz/script.js" data-website-id="24b3eb40-62ce-4ef3-8263-d14543155b39"></script>
+    <script src="/components/viewer.js"></script>
+    <script
+        defer
+        src="https://analytics.yuanh.xyz/script.js"
+        data-website-id="24b3eb40-62ce-4ef3-8263-d14543155b39"
+    ></script>
 </html>
