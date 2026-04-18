@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (urlParam) {
     if (dirParam) {
       imageViewer.src =
-        "/exec/image.php?path=/photolib/" +
+        "https://ghfiles.legacy-resource.yhw.tw/images//photolib/" +
         dirParam +
         "/" +
         urlParam +
@@ -48,7 +48,10 @@ document.addEventListener("DOMContentLoaded", function () {
       download.href =
         "/exec/image.php?dl=1&path=photolib/" + urlParam + "." + format;
       imageViewer.src =
-        "/exec/image.php?path=/photolib/" + urlParam + "." + format;
+        "https://ghfiles.legacy-resource.yhw.tw/images//photolib/" +
+        urlParam +
+        "." +
+        format;
       imageViewer.alt = "Image Viewer";
       imageViewer.style.width = optSize;
     }
